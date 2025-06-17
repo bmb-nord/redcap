@@ -1,4 +1,6 @@
 site_name: REDCap Documentation
+site_url: https://bmb-nord.github.io/redcap
+
 theme:
   name: material
   palette:
@@ -28,7 +30,7 @@ theme:
     code: Red Hat Mono
 
   icon:
-    logo: fontawesome/solid/code
+    logo: fontawesome/solid/book-open-reader
 
 
 # Emoji Pack of MkDocs
@@ -38,10 +40,30 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+nav:
+
+  - Welcome: index.md
+
+  - Access Rights: access-rights.md
+
+  - Instruments: instrument.md
+
+  - Surveys: surveys.md
+
+  - Multi-Language: 
+    - Setup: Multi-Language/setup-german.md
+
+  - External Module:
+    - Cross-Project Piping: cross-project-piping.md
+    - Instance Table: instance-table.md
+    - JavaScript Injector: javascript-sector.md
+
+  - API: api.md
+
+  - Contribution: CONTRIBUTION.md
+
 # extra:
 #   social:
-#     - icon: simple/youtube
-#       link: https://youtube.com/@james-willett
 #     - icon: simple/linkedin
 #       link: https://linkedin.com/in/willettjames
 
