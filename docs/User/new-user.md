@@ -19,7 +19,8 @@
   <figcaption>Add new user steps</figcaption>
 </figure>
 
-<div class="video-wrapper">
-  <iframe width="1280" height="720" src="https://www.youtube.com/watch?v=2z9DTdrIsJY" frameborder="0" allowfullscreen></iframe>
-</div>
+
+<iframe width="720" height="540"
+src="https://www.youtube.com/embed/2uVlyb0irV0">
+</iframe>
 
