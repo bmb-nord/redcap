@@ -56,7 +56,9 @@ nav:
     - Instance Table: instance-table.md
     - JavaScript Injector: javascript-sector.md
 
-  - API: api.md
+  - API:
+    - Setup: API/api.md
+    - Postman: API/postman.md 
 
   - Contribution: CONTRIBUTION.md
 
