@@ -33,22 +33,20 @@ theme:
     logo: fontawesome/solid/book-open-reader
 
 
-# Emoji Pack of MkDocs
-markdown_extensions:
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
 nav:
 
   - Welcome: index.md
 
-  - Access Rights: access-rights.md
+  - User:
+    - New user: User/new-user.md
+    - User Rights: access-rights.md
 
-  - Instruments: instrument.md
+  - Instruments: 
+    - Introduction: instrument.md
+    - Fields: fields.md
 
-  - Surveys: surveys.md
+  - Surveys:
+    - Introduction: surveys-inroduction.md
 
   - Multi-Language: 
     - Setup: Multi-Language/setup-german.md
@@ -62,10 +60,16 @@ nav:
 
   - Contribution: CONTRIBUTION.md
 
-# extra:
-#   social:
-#     - icon: simple/linkedin
-#       link: https://linkedin.com/in/willettjames
 
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 
-# copyright: Copyright &copy; 2025 BMB Nord
+plugins:
+  - glightbox
