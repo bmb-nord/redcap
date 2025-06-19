@@ -38,8 +38,9 @@ nav:
   - Welcome: index.md
 
   - User:
-    - New user: User/new-user.md
-    - User Rights: access-rights.md
+    - Create new user: User/create-new-user.md
+    - Add user: User/add-user.md
+    - User Rights: User/user-rights.md
 
   - Instruments: 
     - Introduction: instrument.md
@@ -79,3 +80,6 @@ markdown_extensions:
 plugins:
   - glightbox
   - search
+
+extra_css:
+  - assets/css/index.css

@@ -1,5 +1,4 @@
-## Create New User
-
+### Steps
 1.	Use the top navigation panel to reach **Control Center**.
 
     !!! note
@@ -13,15 +12,15 @@
     !!! tip
         Uncheck the last option to **Allow this user request that projects be created for them by a REDCap administrator**, if you are going to manage the creation and design of the project.
 
-
+### Graphical steps
 <figure markdown="span">
-  ![Add new user steps](new-user.png){align="center" }
-  <figcaption>Add new user steps</figcaption>
+  ![Create new user steps](create-new-user.png){align="center" }
+  <!-- <figcaption>Create new user</figcaption> -->
 </figure>
 
-
-<div style="align:center;">
-    <iframe width="720" height="540"
+### Video
+<div class="youtube-container">
+    <iframe
         src="https://www.youtube.com/embed/2uVlyb0irV0">
     </iframe>
 </div>
