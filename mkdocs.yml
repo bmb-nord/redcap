@@ -26,8 +26,8 @@ theme:
         - navigation.footer
 
   font:
-    text: Merriweather Sans
-    code: Red Hat Mono
+    text: Open Sans
+    code: Fira Code
 
   icon:
     logo: fontawesome/solid/book-open-reader
@@ -60,7 +60,10 @@ nav:
     - Setup: API/api.md
     - Postman: API/postman.md 
 
-  - Contribution: CONTRIBUTION.md
+  - Contribution: 
+    - Contributing: CONTRIBUTION.md
+    - Code of Conduct: CODE_OF_CONDUCT.md
+    - Developer Guide: DEVELOPER.md
 
 
 markdown_extensions:

@@ -1,17 +1,13 @@
 # Contribution Guidelines
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+We are very happy about all kinds of contributions. Thanks for considering to help us out! 
 
-## Commands
+The simplest way of contributing is to give feedback on the project, either via creating an issue here on GitHub or by sending a message to a maintainer. You can also report bugs that you may have found in this manner.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- Improve existing documentation or add new ones under the docs/ folder.
+- Use proper markdown formatting.
+- Keep documentation clear and concise.
 
-## Project layout
+If you want to do more, we are also happy about pull requests. Please make sure that you have read the [Developer Guide](DEVELOPER.md) before you start working on a pull request.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Before joining the community, please also make sure that you agree with our [Code of Conduct](CODE_OF_CONDUCT.md).

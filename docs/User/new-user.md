@@ -20,7 +20,8 @@
 </figure>
 
 
-<iframe width="720" height="540"
-src="https://www.youtube.com/embed/2uVlyb0irV0">
-</iframe>
-
+<div style="align:center;">
+    <iframe width="720" height="540"
+        src="https://www.youtube.com/embed/2uVlyb0irV0">
+    </iframe>
+</div>
