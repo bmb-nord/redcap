@@ -1,0 +1,11 @@
+# Core MkDocs
+mkdocs>=1.5.0
+
+# Material for MkDocs theme
+mkdocs-material>=9.0.0
+
+# Markdown extensions
+pymdown-extensions>=9.0.0
+
+# Plugins
+mkdocs-glightbox>=0.1.0  # For image lightbox
